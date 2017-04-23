@@ -9,6 +9,6 @@ namespace Schedule
    public class Weekday
     {
         public string weekday;
-        public Lesson[] Lessons;
+        //public Lesson[] Lessons;
     }
 }

@@ -10,22 +10,20 @@ using System.Windows.Forms;
 
 namespace Schedule
 {
-    public partial class Admin : Form
+    public partial class Schedule_form : Form
     {
-        public Admin()
+        public Schedule_form()
         {
             InitializeComponent();
         }
 
-        private void Admin_Load(object sender, EventArgs e)
+        private void Schedule_form_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           Schedule_form sch = new Schedule_form();
-           sch.ShowDialog();
 
         }
     }

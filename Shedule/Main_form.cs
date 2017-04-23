@@ -44,5 +44,10 @@ namespace Schedule
             teach.ShowDialog();
            
         }
+
+        private void student_button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

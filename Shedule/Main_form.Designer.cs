@@ -62,6 +62,7 @@
             this.student_button.TabIndex = 2;
             this.student_button.Text = "Студент";
             this.student_button.UseVisualStyleBackColor = true;
+            this.student_button.Click += new System.EventHandler(this.student_button_Click);
             // 
             // label1
             // 
@@ -75,7 +76,7 @@
             this.label1.Text = "Войти как:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // Main_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,7 +86,7 @@
             this.Controls.Add(this.teacher_button);
             this.Controls.Add(this.admin_button);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Name = "Form1";
+            this.Name = "Main_form";
             this.Text = "Shedule";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
