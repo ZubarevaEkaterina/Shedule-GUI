@@ -1,20 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Shedule
+﻿namespace Schedule
 {
-    public partial class Teacher : Form
+    public class Teacher
     {
-        public Teacher()
-        {
-            InitializeComponent();
-        }
+        public string FIO;
+        public string qualification;
+        public string[] subjects;
     }
 }

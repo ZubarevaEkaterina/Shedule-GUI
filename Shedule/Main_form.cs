@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Shedule
+namespace Schedule
 {
-    public partial class Form1 : Form
+    public partial class Main_form : Form
     {
-        public Form1()
+        public Main_form()
         {
             InitializeComponent();
         }
@@ -24,7 +24,8 @@ namespace Shedule
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Admin admin = new Admin();
+            admin.ShowDialog();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -39,9 +40,9 @@ namespace Shedule
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Teacher teach = new Teacher();
-            teach.Show();
-            Hide();
+            Teacher_form teach = new Teacher_form();
+            teach.ShowDialog();
+           
         }
     }
 }

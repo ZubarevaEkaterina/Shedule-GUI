@@ -1,6 +1,6 @@
-﻿namespace Shedule
+﻿namespace Schedule
 {
-    partial class Teacher
+    partial class Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Admin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Teacher";
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "Admin";
+            this.Text = "Admin";
+            this.Load += new System.EventHandler(this.Admin_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

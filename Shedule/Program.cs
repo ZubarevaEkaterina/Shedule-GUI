@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Shedule
+namespace Schedule
 {
-    static class Program
+     class Program
     {
         /// <summary>
         /// Главная точка входа для приложения.
@@ -16,7 +16,7 @@ namespace Shedule
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Main_form());
         }
     }
 }
