@@ -24,8 +24,8 @@ namespace Schedule
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Schedule_form sch = new Schedule_form();
-           sch.ShowDialog();
+           //Schedule_form sch = new Schedule_form();
+          // sch.ShowDialog();
 
         }
     }

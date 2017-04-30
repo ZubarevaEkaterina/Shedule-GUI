@@ -8,21 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Schedule
+namespace Shedule
 {
-    public partial class Schedule_form : Form
+    public partial class authorization : Form
     {
-        public Schedule_form()
+        public authorization()
         {
             InitializeComponent();
         }
 
-        private void Schedule_form_Load(object sender, EventArgs e)
+        private void authorization_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
